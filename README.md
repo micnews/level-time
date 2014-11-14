@@ -1,6 +1,8 @@
 ## SYNOPSIS
 LevelUP operations time logger
 
+[![Build Status](https://travis-ci.org/micnews/level-time.svg?branch=master)](https://travis-ci.org/micnews/level-time)
+
 ## USAGE
 
 ```js
