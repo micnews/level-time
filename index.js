@@ -37,7 +37,7 @@ function patch(m, db, name, events) {
       firstChunkTime: Infinity,
       totalTime: Infinity,
       start: startTime,
-      end: Infinity,
+      end: null,
       batchSize: 1,
       parallel: 0
     };

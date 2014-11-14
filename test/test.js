@@ -14,11 +14,6 @@ describe('Level-time', function() {
   it('should be able to monitor createReadStream', function(done) {
     var plan = new Plan(2, done);
 
-    async.series([
-      function() {},
-      function() {}
-    ])
-
     time.once('start', function(obj) {
       plan.ok(true);
     });
@@ -32,11 +27,6 @@ describe('Level-time', function() {
 
   it('should be able to monitor createKeyStream', function(done) {
     var plan = new Plan(2, done);
-
-    async.series([
-      function() {},
-      function() {}
-    ])
 
     time.once('start', function(obj) {
       plan.ok(true);

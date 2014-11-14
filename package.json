@@ -1,7 +1,7 @@
 {
   "name": "level-time",
   "version": "0.1.1",
-  "description": "LevelUP response time logger",
+  "description": "LevelUP operations time logger",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha -t 5000 --recursive test --bail --colors --reporter spec --debug -u tdd --log true"
