@@ -1,6 +1,6 @@
 {
   "name": "level-time",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "LevelUP response time logger",
   "main": "index.js",
   "scripts": {
