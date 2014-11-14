@@ -39,7 +39,7 @@ time.on('finish', function(op) {
 
 *Note: the same object passed to both `start` and `finish` events, so it's safe to add custom properties to it.*
 
-Data description:
+Operation object properties description:
 
 - *name* - operation name (e.g. createReadStream)
 - *args* - arguments array
