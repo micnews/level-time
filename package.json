@@ -1,0 +1,29 @@
+{
+  "name": "level-time",
+  "version": "0.1.0",
+  "description": "LevelUP response time logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -t 5000 --recursive test --bail --colors --reporter spec --debug -u tdd --log true"
+  },
+  "repository": "micnews/level-time",
+  "author": "Mic Network, Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micnews/level-time/issues"
+  },
+  "homepage": "https://github.com/micnews/level-time",
+  "dependencies": {
+    "async": "^0.9.0",
+    "forward-events": "0.0.1",
+    "level-manifest": "^1.2.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "memdb": "^0.2.0",
+    "mocha": "^2.0.1",
+    "sinon": "^1.11.1",
+    "test-plan": "^0.1.1"
+  }
+}
