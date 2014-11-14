@@ -81,7 +81,7 @@ function patch(m, db, name, events) {
       return s;
     } else {
       trackCallback(args, function() {
-        obj.firstChunkTime = obj.totalTime;
+        obj.firstChunkTime = new Date() - startTime;
         obj.chunksCount = 1;
         finish();
       });
