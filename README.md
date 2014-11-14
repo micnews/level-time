@@ -1,5 +1,5 @@
 ## SYNOPSIS
-LevelUP response time logger
+LevelUP operations time logger
 
 ## USAGE
 
@@ -50,3 +50,7 @@ Operation object properties description:
 - *end* - operation end/finish date (or null if operation is still in progress or never finished)
 - *batchSize* - number of items for batches, 1 for other operations
 - *parallel* - number of unfinished operations at the event time including current one
+
+##LICENSE
+
+MIT
