@@ -2,7 +2,6 @@ process.env.NODE_ENV = 'test';
 
 var async = require('async');
 var expect = require('chai').expect;
-var sinon = require('sinon');
 var levelTime = require('../index.js');
 var MemDB = require('memdb');
 var db = MemDB();
