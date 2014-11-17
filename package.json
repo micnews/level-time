@@ -20,9 +20,11 @@
     "through2": "^0.6.3"
   },
   "devDependencies": {
+    "benchmark": "^1.0.0",
     "chai": "^1.9.2",
     "memdb": "^0.2.0",
     "mocha": "^2.0.1",
+    "stream-to-array": "^2.0.2",
     "test-plan": "^0.1.1"
   }
 }
