@@ -53,6 +53,18 @@ Operation object properties description:
 - *batchSize* - number of items for batches, 1 for other operations
 - *parallel* - number of unfinished operations at the event time including current one
 
+##PERFORMANCE
+
+Run `npm run benchmark` to benchmark module performance overhead. It uses MemDB internally.
+
+Results on my machine (around 70% of original MemDB performance):
+
+```
+DB x 465 ops/sec ±1.31% (82 runs sampled)
+DB monitored x 326 ops/sec ±2.79% (75 runs sampled)
+Fastest is DB
+```
+
 ##LICENSE
 
 MIT
