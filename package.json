@@ -4,7 +4,8 @@
   "description": "LevelUP operations time logger",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -t 5000 --recursive test --bail --colors --reporter spec --debug -u tdd --log true"
+    "test": "./node_modules/mocha/bin/mocha -t 5000 --recursive test --bail --colors --reporter spec --debug -u tdd --log true",
+    "benchmark": "node benchmark/benchmark.js"
   },
   "repository": "micnews/level-time",
   "author": "Mic Network, Inc",
